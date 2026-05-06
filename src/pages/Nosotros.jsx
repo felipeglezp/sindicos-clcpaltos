@@ -6,7 +6,7 @@ export default function Nosotros() {
       <div className="page-header text-center mb-8">
         <h1>Nuestra Labor</h1>
         <p className="subtitle" style={{maxWidth: '700px', margin: '0 auto', color: 'var(--text-muted)'}}>
-          Los Síndicos son encargados de vigilar y fiscalizar la gestión administrativa y financiera, garantizando la transparencia en el uso de los recursos.
+          Los Síndicos son encargados de bien muchas cosas.
         </p>
       </div>
 
