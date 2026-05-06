@@ -1,0 +1,91 @@
+.planteamientos-page .subtitle {
+  color: var(--text-muted);
+  font-size: 1.1rem;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.search-panel {
+  background-color: var(--blue-900);
+  color: white;
+  border: none;
+}
+
+.search-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 1.5rem;
+}
+
+.search-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+  color: var(--gray-200);
+}
+
+.planteamiento-card {
+  border-left: 4px solid var(--primary);
+}
+
+.planteamiento-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--gray-200);
+}
+
+.badge-tema {
+  background-color: var(--primary-light);
+  color: white;
+  padding: 0.25rem 0.75rem;
+  border-radius: 9999px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.planteamiento-header .fecha {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+}
+
+.planteamiento-titulo {
+  font-size: 1.25rem;
+  color: var(--blue-900);
+  margin-bottom: 0.5rem;
+}
+
+.planteamiento-entidad {
+  font-size: 0.9rem;
+  color: var(--text-muted);
+}
+
+.planteamiento-respuesta {
+  background-color: var(--blue-100);
+  padding: 1rem;
+  border-radius: var(--radius-md);
+  border-left: 3px solid var(--blue-400);
+}
+
+.planteamiento-respuesta h4 {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  color: var(--blue-800);
+  margin-bottom: 0.5rem;
+}
+
+.planteamiento-respuesta p {
+  color: var(--blue-900);
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .search-grid {
+    grid-template-columns: 1fr;
+  }
+}
