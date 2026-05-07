@@ -2,9 +2,10 @@ import React from 'react';
 
 export default function Directorio() {
   const sindicos = [
-    { id: 1, nombre: 'C.P. Juan Pérez López', cargo: 'Síndico Titular', contacto: 'juan.perez@ejemplo.com' },
-    { id: 2, nombre: 'C.P. María González', cargo: 'Síndico Suplente', contacto: 'maria.g@ejemplo.com' },
-    { id: 3, nombre: 'C.P. Roberto Sánchez', cargo: 'Asesor del Consejo', contacto: 'roberto.s@ejemplo.com' },
+    { id: 1, nombre: 'L.C.P. Martha Patricia Aguilar Navarro', cargo: 'Síndico Titular Administración Desconcentrada de Servicios al Contribuyente de Jalisco 2.', contacto: 'paty_ta8@hotmail.com' },
+    { id: 2, nombre: 'L.C.P. Jorge Enrique Mendoza González', cargo: 'Síndico Suplente', contacto: 'cpjorgemendoza23@gmail.com' },
+    { id: 3, nombre: 'MDFA. L.D. y L.C.P. Felipe de Jesús González Pérez', cargo: 'Síndico Titular Administración Desconcentrada de Servicios al Contribuyente de Jalisco 3. ', contacto: 'felipeglezp@gmail.com' },
+    { id: 4, nombre: 'M.I. y L.C.P. Maria Eugenia Gomez Gutierrez ', cargo: 'Síndica Suplente', contacto: 'eugenia.8888@hotmail.com' }
   ];
 
   return (

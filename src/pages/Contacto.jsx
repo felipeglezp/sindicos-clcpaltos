@@ -6,7 +6,7 @@ export default function Contacto() {
       <div className="page-header text-center mb-8">
         <h1>Contacto</h1>
         <p className="subtitle" style={{maxWidth: '600px', margin: '0 auto', color: 'var(--text-muted)'}}>
-          Comunícate con el Consejo de Síndicos para reportar incidencias con el SAT o realizar consultas sobre criterios fiscales.
+          Comunícate con la Comisión de Síndicos para reportar incidencias con el SAT o realizar consultas sobre criterios fiscales.
         </p>
       </div>
 
@@ -15,15 +15,15 @@ export default function Contacto() {
           <h2 style={{color: 'white', marginBottom: '1.5rem'}}>Información</h2>
           <div style={{marginBottom: '1rem'}}>
             <strong>Dirección:</strong>
-            <p style={{color: 'var(--gray-400)'}}>Av. Principal 123, Col. Centro, Tepatitlán de Morelos, Jalisco. CP 47600</p>
+            <p style={{color: 'var(--gray-400)'}}>Calle Morelos 218-interior 3, Centro, 47600 Tepatitlán de Morelos, Jal.</p>
           </div>
           <div style={{marginBottom: '1rem'}}>
             <strong>Teléfono:</strong>
-            <p style={{color: 'var(--gray-400)'}}>(378) 123 4567</p>
+            <p style={{color: 'var(--gray-400)'}}>(378) 128 6076</p>
           </div>
           <div style={{marginBottom: '1rem'}}>
             <strong>Correo Electrónico:</strong>
-            <p style={{color: 'var(--gray-400)'}}>contacto@colegiodecontadoresaltos.mx</p>
+            <p style={{color: 'var(--gray-400)'}}>sindicosat.clcpa@gmail.com</p>
           </div>
         </div>
         

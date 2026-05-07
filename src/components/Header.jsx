@@ -12,14 +12,14 @@ export default function Header() {
         <Link to="/" className="logo-section">
           <div className="logo-icon">SC</div>
           <div className="logo-text">
-            <strong>Síndicos del Contribuyente</strong>
-            <span>Colegio de Contadores Públicos de los Altos</span>
+            <strong>Comisión de Síndicos del Contribuyente</strong>
+            <span>Colegio de Contadores Públicos de los Altos de Jalisco A.C.</span>
           </div>
         </Link>
         <nav className="main-nav">
           <Link to="/" className={`nav-link ${isActive('/')}`}>Inicio</Link>
-          <Link to="/noticias" className={`nav-link ${isActive('/noticias')}`}>Noticias</Link>
-          <Link to="/planteamientos" className={`nav-link ${isActive('/planteamientos')}`}>Consultas SAT</Link>
+          <Link to="/noticias" className={`nav-link ${isActive('/noticias')}`}>Boletines</Link>
+          <Link to="/planteamientos" className={`nav-link ${isActive('/planteamientos')}`}>Planteamientos SAT</Link>
           <Link to="/nosotros" className={`nav-link ${isActive('/nosotros')}`}>Quiénes Somos</Link>
           <Link to="/directorio" className={`nav-link ${isActive('/directorio')}`}>Directorio</Link>
           <Link to="/contacto" className={`nav-link ${isActive('/contacto')}`}>Contacto</Link>
