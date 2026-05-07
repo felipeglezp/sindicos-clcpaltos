@@ -15,7 +15,8 @@ export default function Noticias() {
           header: true,
           skipEmptyLines: true,
           complete: (results) => {
-            setNoticias(results.data);
+            const sortedData = results.data.sort((a, b) => new Date(b.Fecha) - new Date(a.Fecha));
+            setNoticias(sortedData);
             setLoading(false);
           }
         });
