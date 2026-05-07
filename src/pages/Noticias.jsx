@@ -30,12 +30,12 @@ export default function Noticias() {
     <div className="page-wrapper fade-in">
       <div className="container py-12">
         <div className="section-header text-center mb-10">
-          <h1>Todas las Noticias</h1>
+          <h1>Boletines emitidos por la Comisión de Síndicos</h1>
           <p className="subtitle">Historial completo de acontecimientos, boletines y actualizaciones importantes.</p>
         </div>
 
         {loading ? (
-          <div className="text-center py-8">Cargando noticias...</div>
+          <div className="text-center py-8">Cargando boletines...</div>
         ) : (
           <div className="news-grid">
             {noticias.map(noticia => (

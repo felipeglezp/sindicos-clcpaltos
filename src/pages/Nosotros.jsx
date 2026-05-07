@@ -6,7 +6,7 @@ export default function Nosotros() {
       <div className="page-header text-center mb-8">
         <h1>Nuestra Labor</h1>
         <p className="subtitle" style={{maxWidth: '700px', margin: '0 auto', color: 'var(--text-muted)'}}>
-          Los Síndicos son encargados de bien muchas cosas.
+          Nuestros compromisos y responsabilidades como Comisión de Síndicos del Colegio de Licenciados en Contaduría Pública de los Altos de Jalisco A.C. para el periodo 2024-2026.
         </p>
       </div>
 
@@ -14,21 +14,21 @@ export default function Nosotros() {
         <div className="card" style={{borderTop: '4px solid var(--primary-light)'}}>
           <h3 style={{color: 'var(--primary)'}}>Funciones de Vigilancia</h3>
           <p style={{color: 'var(--text-muted)'}}>
-            Revisión permanente de los procesos y cumplimiento normativo. Supervisamos que las operaciones ante las autoridades fiscales se realicen conforme a la ley.
+            El rol del Síndico del Contribuyente es servir como un canal de comunicación directo y gratuito entre las autoridades fiscales (SAT) y los contribuyente.
           </p>
         </div>
         
         <div className="card" style={{backgroundColor: 'var(--blue-900)', color: 'white'}}>
           <h3 style={{color: 'white'}}>Transparencia Total</h3>
           <p style={{color: 'var(--gray-200)'}}>
-            Presentamos informes periódicos a la asamblea general. Nuestro compromiso es mantener una gestión abierta ante todos los miembros de la organización.
+            Nuestro principal propósito es  facilitar la relación entre ambas partes, apoyando el cumplimiento de las obligaciones fiscales de los afiliados.
           </p>
         </div>
         
         <div className="card" style={{borderTop: '4px solid var(--primary-light)'}}>
           <h3 style={{color: 'var(--primary)'}}>Ética Profesional</h3>
           <p style={{color: 'var(--text-muted)'}}>
-            Velamos por el cumplimiento del Código de Ética del Colegio. Promovemos las mejores prácticas y proponemos mejoras en los procesos.
+            Buscamos representar honorablemente al Colegio y sus integrantes para dar a conocer sus problemáticas, lo que contribuye al fortalecimiento y la vinculación institucional de nuestra organización.
           </p>
         </div>
       </div>

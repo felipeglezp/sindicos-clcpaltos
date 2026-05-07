@@ -7,7 +7,7 @@ import Nosotros from './pages/Nosotros';
 import Directorio from './pages/Directorio';
 import Contacto from './pages/Contacto';
 import NoticiaDetail from './pages/NoticiaDetail';
-import Noticias from './pages/Noticias';
+import Boletines  from './pages/Noticias';
 import './index.css';
 
 function App() {

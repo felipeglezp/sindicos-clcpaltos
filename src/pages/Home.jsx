@@ -26,7 +26,7 @@ export default function Home() {
       {/* Hero Section */}
       <section className="hero">
         <div className="container hero-content">
-          <div className="hero-badge fade-in">Colegio de Licenciados en Contaduría Pública de los Altos A.C.</div>
+          <div className="hero-badge fade-in">Colegio de Licenciados en Contaduría Pública de los Altos de Jalisco A.C.</div>
           <h1 className="fade-in">Comisión de Síndicos 2024-2026</h1>
           <p className="hero-subtitle fade-in">
             Compromiso con la ética profesional contable en la región de los Altos de Jalisco
@@ -42,7 +42,7 @@ export default function Home() {
       <section className="news-section container py-12">
         <div className="section-header text-center mb-8">
           <h2>Últimas Noticias y Boletines</h2>
-          <p className="subtitle">Mantente informado sobre los acontecimientos y actualizaciones SAT</p>
+          <p className="subtitle">Mantente informado sobre los acontecimientos y actualizaciones de la Comisión de Síndicos</p>
         </div>
 
         <div className="news-grid">
